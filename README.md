@@ -87,7 +87,7 @@ SELECT *
 FROM netflix
 WHERE release_year = 2020;
 ```
-[](https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_03.csv)
+[Download the CSV file](https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_03.csv)
 ### 4. Find the Top 5 Countries with the Most Content on Netflix
 
 ```sql
