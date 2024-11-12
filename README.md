@@ -79,7 +79,7 @@ SELECT
 FROM RankedRatings
 WHERE rank = 1;
 ```
-
+![](https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_02.png)
 ### 3. List All Movies Released in a Specific Year (e.g., 2020)
 
 ```sql
