@@ -230,7 +230,7 @@ FROM (
 ) AS categorized_content
 GROUP BY category;
 ```
-
+![](https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_15.png)
 ## Findings and Conclusion
 
 - **Content Distribution:** The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
