@@ -114,7 +114,7 @@ FROM netflix
 WHERE type = 'Movie'
 ORDER BY SPLIT_PART(duration, ' ', 1)::INT DESC;
 ```
-
+[View CSV file])(https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_05.csv)
 ### 6. Find Content Added in the Last 5 Years
 
 ```sql
@@ -122,7 +122,7 @@ SELECT *
 FROM netflix
 WHERE TO_DATE(date_added, 'Month DD, YYYY') >= CURRENT_DATE - INTERVAL '5 years';
 ```
-
+[View CSV file])(https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_06.csv)
 ### 7. Find All Movies/TV Shows by Director 'Rajiv Chilaka'
 
 ```sql
@@ -135,7 +135,7 @@ FROM (
 ) AS t
 WHERE director_name = 'Rajiv Chilaka';
 ```
-
+[View CSV file])(https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_07.csv)
 ### 8. List All TV Shows with More Than 5 Seasons
 
 ```sql
@@ -144,7 +144,7 @@ FROM netflix
 WHERE type = 'TV Show'
   AND SPLIT_PART(duration, ' ', 1)::INT > 5;
 ```
-
+[View CSV file])(https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_08.csv)
 ### 9. Count the Number of Content Items in Each Genre
 
 ```sql
@@ -154,7 +154,7 @@ SELECT
 FROM netflix
 GROUP BY 1;
 ```
-
+[View CSV file])(https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_09.csv)
 ### 10.Find each year and the average numbers of content release in India on netflix. 
 return top 5 year with highest avg content release!
 
@@ -181,7 +181,7 @@ SELECT *
 FROM netflix
 WHERE listed_in LIKE '%Documentaries';
 ```
-
+[View CSV file])(https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_11.csv)
 ### 12. Find All Content Without a Director
 
 ```sql
@@ -189,7 +189,7 @@ SELECT *
 FROM netflix
 WHERE director IS NULL;
 ```
-
+[View CSV file])(https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_12.csv)
 
 ### 13. Find How Many Movies Actor 'Salman Khan' Appeared in the Last 10 Years
 
@@ -199,7 +199,7 @@ FROM netflix
 WHERE casts LIKE '%Salman Khan%'
   AND release_year > EXTRACT(YEAR FROM CURRENT_DATE) - 10;
 ```
-
+[View CSV file])(https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_13.csv)
 
 ### 14. Find the Top 10 Actors Who Have Appeared in the Highest Number of Movies Produced in India
 
