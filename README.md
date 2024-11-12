@@ -173,7 +173,7 @@ GROUP BY country, release_year
 ORDER BY avg_release DESC
 LIMIT 5;
 ```
-
+![](https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_10.png)
 ### 11. List All Movies that are Documentaries
 
 ```sql
