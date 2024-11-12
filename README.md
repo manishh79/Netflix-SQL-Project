@@ -213,7 +213,7 @@ GROUP BY actor
 ORDER BY COUNT(*) DESC
 LIMIT 10;
 ```
-
+![](https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_14.png)
 ### 15. Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
 
 ```sql
