@@ -51,7 +51,7 @@ SELECT
 FROM netflix
 GROUP BY 1;
 ```
-![](C:\Users\Lenovo\Pictures\Screenshots)
+![](https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_01.png)
 
 
 ### 2. Find the Most Common Rating for Movies and TV Shows
