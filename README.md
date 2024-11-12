@@ -104,7 +104,7 @@ WHERE country IS NOT NULL
 ORDER BY total_content DESC
 LIMIT 5;
 ```
-
+![](https://github.com/manishh79/Netflix-SQL-Project/blob/main/Solution_04.png)
 ### 5. Identify the Longest Movie
 
 ```sql
